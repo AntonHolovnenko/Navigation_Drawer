@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/imports"
+        android:icon="@drawable/imports"
+        android:title="@string/imports"
+        />
+    <item
+        android:id="@+id/gallery"
+        android:icon="@drawable/gallery"
+        android:title="@string/gallery"
+        />
+    <item
+        android:id="@+id/slideshow"
+        android:icon="@drawable/slideshow"
+        android:title="@string/slideshow"
+        />
+    <item
+        android:id="@+id/tools"
+        android:icon="@drawable/tools"
+        android:title="@string/tools"
+        />
+
+    <item android:title="@string/communicate">
+        <menu>
+            <item
+                android:id="@+id/share"
+                android:icon="@drawable/share"
+                android:title="@string/share"
+                />
+            <item
+                android:id="@+id/send"
+                android:icon="@drawable/send"
+                android:title="@string/send"
+                />
+        </menu>
+    </item>
+
+</menu>
